@@ -1,6 +1,6 @@
 Name:           pass-update
 Version:        2.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A pass extension that provides an easy flow for updating passwords.
 BuildArch:      noarch
 
@@ -36,5 +36,8 @@ specified.
 %{_mandir}/man1/%{name}.1.gz
 
 %changelog
+* Tue Feb 19 2019 Krzysztof Adamski <k@japko.eu> - 2.1-2
+- rebuilt
+
 * Thu Feb 14 2019 Krzysztof Adamski <k@japko.eu>
 - Initial version
